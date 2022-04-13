@@ -4,183 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+
+    <!--Favicon image-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!--Link for main page stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <title>Joshua Thomas</title>
+
+    <!--title of the page-->
+    <title>Kocoon</title>
+
 </head>
 <body>
+
     <!--Navigation bar-->
-    <nav class="wrapper">
-        <a href="#">Joshua Thomas</a>
-        <div>
-            
-        </div>
-        <a href="#">About</a>
-        <a href="#" class="active">Projects</a>
+    <nav id="navigation">
+        <ul class="navbar">
+
+            <div class="left">
+                <!--Logo of Kocoon goes here (images/Kocoon.png)-->
+                <div class="left-nav-image"></div>
+                <a href="#landing_page">
+                    <img src="images/transparentLogo.png" alt="Kocoon-image">
+                </a>
+            </div>
+
+            <div class="middle">
+                <!--Hamburger menu goes here (mobile and tablet) || list items (desktop and beyond)-->
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#our_articles">Our Articles</a></li>
+                <li><a href="#our_community">Our Community</a></li>
+                <li>Our Team</li>
+                <li><a href="#footer">Contact Us</a></li>
+            </div>
+
+            <div class="right">
+                <!--social media icons/links-->
+                <a href="https://www.linkedin.com/company/kocoonco-op/" target="_blank">
+                    <img src="images/linkedin-icon.png" alt="Kocoon-linkedin"></a>
+                <a href="https://www.instagram.com/koco.on/" target="_blank">
+                <img src="images/instagram-icon.png" alt="Kocoon-instagram"></a>
+            </div>
+        </ul>
     </nav>
 
-    <!--header title-->
-    <h1>Projects</h1>
-    <p><i><center>Ecommerce websites<br>Clone Websites<br>API Integrations <br>Commercial websites <br>Landing Pages <br>Mini Projects <br>Personal Portfolio</center></i></p>
+    <!--section-1 (landing page)-->
+    <section class="section-1" id="landing_page">
+        <!--sub1-section1-->
+        <section class="sub1-section1">
+            <!--h2-->
+            <h2>Media Production</h2>
 
-    <!--Main area-->
-    <main class="wrapper">
+            <!--h3-->
+            <h3>
+                We are an educational platform that focuses on the wellbeing by presenting academic papers for everyone.
+            </h3>
 
-        <section>
-            <img src="1920x1080_Open.png"/>
-            <h1>Blog website</h1>
-            <p><center><u>Blog Website</u><br>This was a coding test, which had me create a fully responsive blog website from a UX/UI design. This website which uses HTML, SASS, JavaScript & Responsive Design.</p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/Think-Tank" target="_blank">View Source Code</a>
-                    <a href="https://joshuasprogramming.github.io/Think-Tank/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="FoodDX.JPG"/>
-            <h1>Food Delivery Website</h1>
-            <p><center><u>Food Delivery Website</u><br>I created a fully responsive real estate website from viewing a UX/UI design online. This website uses HTML, SASS & Responsive Design</p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/FoodDX" target="_blank">View Source Code</a>
-                    <a href="https://joshuasprogramming.github.io/FoodDX/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="The Modern House.JPG"/>
-            <h1>The Modern House Landing-Page</h1>
-            <p><center><u>Real Estate Clone website</u><br>I created a fully responsive ecommerce website from viewing a UX/UI design online. This website uses HTML, SASS & Responsive Design.</p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/The-Modern-House" target="_blank">View Source Code</a>
-                    <a href="https://joshuasprogramming.github.io/The-Modern-House/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="1920x1080.png"/>
-            <h1>Interior-Design-Landing-Page</h1>
-            <p><center><u>Ecommerce Clone website</u><br>I created a fully responsive ecommerce website from viewing a UX/UI design online. This website uses HTML, SASS & Responsive Design.</p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/Interior-Design-Landing-Page" target="_blank">View Source Code</a>
-                    <a href="https://joshuasprogramming.github.io/Interior-Design-Landing-Page/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="HoneyPot Furniture (final).png"/>
-            <h1>HoneyPot Furniture</h1>
-            <p><center><u>Ecommerce Clone website</u><br>This was a coding test, which had me create a fully responsive ecommerce website from a UX/UI design. This website which uses HTML, SASS, JavaScript & Responsive Design.</p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/HoneyPot-Furniture" target="_blank">View Source Code</a>
-                    <a href="https://joshuasprogramming.github.io/HoneyPot-Furniture/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="fetchAPIs.JPG"/>
-            <h1>FetchAPIs.com</h1>
-            <p><center><u>API Integration</u><br>Full stack website which was has a API tracker for Covid data, weather data and movie data. Website uses HTML, SASS, JavaScript, PHP, MYSQL & Responsive Design.</center><br><center>1. API integrations (Covid data, weather data, movie data)<br>2. User & admin register/login<br>3. User & admin can CREATE READ UPDATE DELETE their account<br>4. User & admin can logout of their account<br>5. User can add their profile image<br>6. Admin can search for users</center></p>
-                <div>
-                    <a href="https://github.com/JoshuasProgramming/Fetch-APIs.com-Responsive" target="_blank">View Source Code</a>
-                    <a href="https://youtu.be/F5vqx36KA3s" target="_blank">Watch Video</a>
-                    <a href="https://joshuasprogramming.github.io/Fetch-APIs.com-Responsive/"target="_blank">View Live Website</a>
-                </div>
-        </section>
-
-        <section>
-            <img src="burger palace.JPG"/>
-            <h1>Burger Palace</h1>
-            <p><center><u>Commercial website</u><br>Full stack website which was designed for a fast food chain company called "Burger Palace". Website uses HTML, SASS, JavaScript, PHP & Responsive Design.</center><br><center>1. User register/login<br>2. User can CREATE READ UPDATE DELETE their account<br>3. User can logout of their account<br>4. Multiple Pages<br>5. Google Maps Integration</center></p>
+            <!--a tags for the latest article and a 'find our more' page-->
             <div>
-                <a href="https://github.com/JoshuasProgramming/Burger-Palace-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Burger-Palace-Responsive/"target="_blank">View Live Website</a>
+                <a href="gambling.html">Latest Article</a>
+
+                <a>Find Out More</a>
+            </div>
+        </section>
+            
+        <!--sub2-section1 (extra spacing towards the left)-->
+        <section class="sub2-section1">
+        </section>
+
+    </section>
+
+    <!--section-2 (about us page)-->
+    <section class="section-2" id="about_us">
+        <section class="sub1-section2">
+            <h2>
+                About Us
+            </h2>
+
+            <p>
+                Our aim is to bridge the gap between knowledgeable academics and professionals (E.G. Sports Scientists, Psychologists, Human geographers), and the general public looking to engage with this accredited community.
+            </p>
+        </section>
+        
+       
+    </section>
+
+    <!--section-3 (Our articles)-->
+    <section class="section-3" id="our_articles">
+        <!--(title of section [h2])-->
+        <h2 class="section-3-title-h2">
+            Our Articles
+        </h2>
+
+        <!--sub1-section3-->
+        <section class="sub1-section3">
+            <div class="article-card1">
+                <h2>Sports<br>Scientists</h2>
+            </div>
+            <div class="article-card2">
+                <h2>Psychologists</h2>
+            </div>
+            <div class="article-card3">
+                <h2>Human geographers</h2>
             </div>
         </section>
 
-        <section>
-            <img src="Orange Diner.JPG"/>
-            <h1>Orange Diner</h1>
-            <p><center><u>Commercial website</u><br>Full stack website which was designed for a bar called "Orange Diner". Website uses HTML, SASS, JavaScript, PHP, MYSQL & Responsive Design.</center><br><center>1. User register/login<br>2. User can CREATE READ UPDATE DELETE their account<br>3. User can logout of their account<br>4. Multiple Pages<br>5. Google Maps Integration<br>6. Password checkbox using JavaScript</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/Orange-Diner-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Orange-Diner-Responsive/"target="_blank">View Live Website</a>
-            </div>
+        <section class="sub2-section3">
+            <a>View All Articles</a>
+            <a>View All Articles</a>
+            <a>View All Articles</a>
         </section>
+    </section>
 
-        <section>
-            <img src="The 5 Star.JPG"/>
-            <h1>The 5 Star</h1>
-            <p><center><u>Commercial website</u><br>Front End website which was designed for a restaurant company called "The 5 Star". Website uses HTML, SASS, JavaScript & Responsive Design.</center><br><center>1. Responsive Design<br>2. Contact Section<br>3. HTML Sections<br>4. One Page Website<br>5. Google Maps Integration</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/The-5-Star-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/The-5-Star-Responsive/"target="_blank">View Live Website</a>
-            </div>
+    <!--section-4 (Our Community)-->
+    <section class="section-4" id="our_community">
+        <section class="sub1-section4">
+            <!--h3-->
+            <h3>
+                We are aiming to launch as a Not-for-profit Co-Operative and would love for more students to join us!
+            </h3>
+
+            <a href="https://www.linkedin.com/company/kocoonco-op/jobs/" target="_blank">JOIN THE TEAM</a>
         </section>
+    </section>
 
-        <section>
-            <img src="Blue Sci-fi.JPG"/>
-            <h1>Blue Sci-fi</h1>
-            <p><center><u>Landing Page</u><br>Front End landing page website which was designed for a company called "Blue Sci-Fi". Website uses HTML, SASS, JavaScript & Responsive Design.</center></p>
+    <!--section-5 (Our Team)-->
+    <section class="section-5">
+        <!--(title of section [h2])-->
+        <h2 class="section-5-title-h2">
+            <!-- Our Team -->
+        </h2>
+
+        <section class="sub1-section5">
             <div>
-                <a href="https://github.com/JoshuasProgramming/Blue-Sci-Fi-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Blue-Sci-Fi-Responsive/"target="_blank">View Live Website</a>
+                <!--image-->
+                
+                <!--h2-->
+                <!--p-->
             </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </section>
+    </section>
 
-        <section>
-            <img src="compound interest calculator.JPG"/>
-            <h1>Compound Interest Calculator</h1>
-            <p><center><u>Mini Project</u><br>Front End website for compound interest. Website uses HTML, SASS, JavaScript & Responsive Design</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/Compound-Interest-Calculator-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Compound-Interest-Calculator-Responsive/"target="_blank">View Live Website</a>
-            </div>
+    <!--section-6 (Footer)-->
+    <section class="section-6" id="footer">
+        <section class="sub1-section6">
+            <a href="#landing_page">
+                <img src="images/transparentLogo2.png" alt="Kocoon-image">
+            </a>
+
+            <p>© 2022. Kocoon. All rights reserved.</p>
         </section>
+    </section>
 
-        <section>
-            <img src="Weight Converter.JPG"/>
-            <h1>Weight Converter</h1>
-            <p><center><u>Mini Project</u><br>Front End website for a weight converter. Website uses HTML, SASS, JavaScript & Responsive Design</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/Weight-Converter-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Weight-Converter-Responsive/"target="_blank">View Live Website</a>
-            </div>
-        </section>
-
-        <section>
-            <img src="number guessing game.JPG"/>
-            <h1>Number Guessing Game</h1>
-            <p><center><u>Mini Project</u><br>Front End website for a number guessing game. Website uses HTML, SASS, JavaScript & Responsive Design</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/Number-Guessing-Game-Responsive" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Number-Guessing-Game-Responsive/"target="_blank">View Live Website</a>
-            </div>
-        </section>
-
-        <section>
-            <img src="portfolio.JPG"/>
-            <h1>Personal portfolio</h1>
-            <p><center><u>Portfolio</u><br>Front End website which contains my portfolio. Website uses HTML, CSS & Responsive Design</center></p>
-            <div>
-                <a href="https://github.com/JoshuasProgramming/Joshua-Thomas-Dev-Portfolio" target="_blank">View Source Code</a>
-                <a href="https://joshuasprogramming.github.io/Joshua-Thomas-Dev-Portfolio/"target="_blank">View Live Website</a>
-            </div>
-        </section>
-    </main>
-
-    <!--Footer-->
-    <footer class="wrapper">
-        <div class="left">
-            &copy;Joshua 2022
-        </div>
-        <div class="right">
-            <ul>
-                <li><a href="https://github.com/JoshuasProgramming" target="_blank">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/joshua-thomas-dev/" target="_blank">LinkedIN</a></li>
-            </ul>
-        </div>
-    </footer>
-
+    <!--import javascript file below-->
     <script src="script.js"></script>
 </body>
 </html>
